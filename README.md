@@ -14,8 +14,8 @@ Assurez-vous d'avoir les éléments suivants installés sur votre machine :
 Clonez le dépôt GitHub sur votre machine :
 
 ```bash
-git clone https://github.com/enzo0039/sdv-m1do-containers-project-enzo.git
-cd sdv-m1do-containers-project-enzo
+git clone https://github.com/GrvtTera/tp-note.git
+cd tp-note
 Configuration de l'environnement
 Avant de lancer le projet, assurez-vous d'avoir configuré vos variables d'environnement si nécessaire (voir .env ou autres fichiers de configuration).
 
