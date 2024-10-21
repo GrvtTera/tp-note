@@ -16,28 +16,29 @@ Clonez le dépôt GitHub sur votre machine :
 ```bash
 git clone https://github.com/GrvtTera/tp-note.git
 cd tp-note
-Configuration de l'environnement
+```
+## Construire les conteneurs
+
 Avant de lancer le projet, assurez-vous d'avoir configuré vos variables d'environnement si nécessaire (voir .env ou autres fichiers de configuration).
 
-Lancer le projet
 Pour démarrer l'application, exécutez la commande suivante dans le répertoire du projet :
 
-bash
-Copier le code
+```bash
 docker-compose up --build
-Cette commande :
+```
+Cette commande construit les images Docker pour l'API et le frontend.
 
-Construit les images Docker pour l'API et le frontend.
-Démarre les conteneurs.
-Accéder à l'application
+
+## Accéder à l'application
+
 L'API sera accessible à l'adresse http://localhost:8000.
 Le frontend sera accessible à l'adresse http://localhost:3000.
-Arrêter le projet
-Pour arrêter les conteneurs, utilisez la commande suivante :
 
-bash
-Copier le code
+
+Pour arrêter les conteneurs, utilisez la commande suivante :
+```bash
 docker-compose down
-Déploiement CI/CD
+```
+## Déploiement CI/CD
 Ce projet est configuré avec GitHub Actions pour automatiser le processus de construction et de déploiement. Chaque fois que vous poussez des modifications sur la branche main, une nouvelle image Docker est construite et poussée vers Docker Hub.
 
